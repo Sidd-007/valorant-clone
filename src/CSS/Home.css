@@ -1,0 +1,475 @@
+.main {
+    background-color: #e4e2da;
+}
+
+.home {
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    font-size: 100px;
+    font-weight: 100;
+    color: rgb(247, 228, 228);
+}
+
+
+@media screen and (max-width: 1204px) {
+    .home h1 {
+        font-size: 120px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home h1 {
+        font-size: 60px;
+    }
+}
+
+.lp-master {
+    margin-bottom: 20.25rem;
+
+    background-color: #e4e2da;
+}
+
+.lp {
+    display: flex;
+    justify-content: center;
+}
+
+#myVideo {
+    position: absolute;
+    width: 100vw;
+    margin-top: 60px;
+    height:100vh;
+    object-fit: cover;
+}
+
+
+.trailer-main {
+    background-color: #e4e2da;
+    padding-bottom: 100px;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.mainHeading {
+    display: flex;
+    font-size: 10.6rem;
+    line-height: .94;
+    font-weight: 700;
+    color: #0f1923;
+    font-family: "Tungsten-Bold";
+    align-items: center;
+    justify-content: center;
+    margin-right: 400px;
+}
+
+.trailer-main h5 {
+    font-family: "DinNext";
+    text-shadow: none;
+    color: rgb(167, 167, 167);
+    line-height: 2;
+    font-size: .85rem;
+}
+
+.t1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.t1-text {
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+
+.defy{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "DinNext";
+
+}
+
+.t1-img {
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.t1-text h5 span {
+    color: #ff4655;
+    transition: color .1s ease-out;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 2.5rem;
+    font-family: "DinNext";
+    font-size: 15px;
+    display: block;
+    line-height: 1.4;
+}
+
+.t1-text h5 span:hover {
+    color: #1f1f1fd0;
+}
+
+.content {
+    color: #768079;
+    padding-right: 30%;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-family: "DinNext";
+    margin-left: 40px;
+    display: block;
+    margin-top: 2.5rem;
+}
+
+.line {
+    width: 400px;
+    height: 1px;
+    background: #2c2b2b96;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.line2 {
+    width: 1200px;
+    height: 1px;
+    background: #2c2b2b96;
+    overflow: hidden;
+    margin-left: 132px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.lp-items {
+    z-index: 0;
+    margin-top: 40px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    margin-top: 30px;
+}
+
+.lp p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-weight: 500px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.cta button {
+    color: white;
+    font-size: 0.69rem;
+    font-weight: 800;
+    background-color: #ff4655;
+    padding: 20px 90px 20px 90px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #0f1923;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.cta button::before,
+.cta button::after {
+    content: "";
+    width: 104%;
+    height: 53%;
+    border: 1px solid white;
+    background-color: transparent;
+    position: absolute;
+    border-color: #b6b5b0;
+    opacity: 70%;
+}
+
+.cta button::before {
+    top: -7px;
+    right: -6px;
+    border-bottom: none;
+}
+
+.cta button::after {
+    top: 33px;
+    right: -6px;
+    border-top: none;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 #0f1923;
+
+}
+
+.empt {
+    background: #e4e2da;
+    position: relative;
+}
+
+.empt:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 60px solid #ff4655;
+    border-right: 150px solid #e4e2da;
+    width: 0;
+}
+
+.agents-sec {
+    background-color: #ff4655;
+
+}
+
+.agents-sec {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
+.agents-text {
+    margin-right: 500px;
+    display: flexbox;
+    justify-content: left;
+}
+
+.agents-text h3 {
+    color: #ece8e1;
+    font-family: "DinNext";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.agents-text {
+    display: inline-block;
+    line-height: 6.8rem;
+    margin-left: 90px;
+    margin-top: 110px;
+}
+
+.agents-text .head {
+    font-weight: 600;
+    padding-right: 200%;
+    color: #ece8e1;
+    font-size: 9rem;
+    font-family: "Tungsten-Bold";
+    line-height: -10px;
+}
+
+.agents-img img{
+    margin-top: 80px;
+    height: 100%;
+}
+
+.head-p {
+    text-shadow: none;
+    margin-top: 10px;
+    font-family: "DinNext";
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    max-width: calc(80% - 0.6rem);
+    width: 100%;
+    color: #ece8e1;
+}
+
+.cta-2 button {
+    color: black;
+    font-size: 0.69rem;
+    font-weight: 800;
+
+    background-color: #ececec;
+    padding: 20px 90px 20px 90px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #0f1923;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 #0f1923;
+
+}
+
+.cta-2 button::before,
+.cta-2 button::after {
+    content: "";
+    width: 103%;
+    height: 53%;
+    border: 1px solid white;
+    background-color: transparent;
+    position: absolute;
+    border-color: #111111;
+    opacity: 70%;
+}
+
+.cta-2 button::before {
+    border-bottom: none;
+    top: -8px;
+    right: -5px;
+}
+
+.cta-2 button::after {
+    border-top: none;
+    top: 32px;
+    right: -5px;
+}
+
+.cta-2 button span {
+    text-decoration: none;
+    color: black;
+}
+
+.cta-2 button:hover span {
+    color: white;
+}
+
+
+.playFree {
+    font-family: "DinNext";
+    font-size: 0.8rem;
+}
+
+.maps-main {
+    padding-left: 50px;
+    padding-bottom: 300px;
+    background-color: #e4e2da;
+    background-image: url("./maps.png");
+    display: flexbox;
+    background-size: cover;
+
+}
+
+
+.maps-text {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+
+.maps-main h1 {
+    color: #0f1923;
+    font-size: 8rem;
+    font-family: "Tungsten-Bold";
+    margin: 0 0 4rem;
+    padding-top: 0.13em;
+}
+
+.fight{
+    color: #383e3a;
+    font-family: "DinNext";
+    font-size: 20px;
+}
+
+.maps-main p {
+    padding-top: 40px;
+    color: #383838;
+    text-shadow: none;
+    line-height: 1.6;
+    display: inline-block;
+    max-width: calc(80% - 0.6rem);
+    font-family: "DinNext";
+    width: 100%;
+    font-weight: 400;
+}
+
+.cta-3 button {
+    font-size: 0.69rem;
+    font-weight: 800;
+    background-color: #ff4655;
+    padding: 20px 90px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 70px;
+    margin-left: 100px;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #0f1923;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+
+}
+
+.cta-3 button::before,
+.cta-3 button::after {
+    content: "";
+    width: 105%;
+    height: 53%;
+    border: 1px solid white;
+    background-color: transparent;
+    position: absolute;
+    border-color: #111111;
+    opacity: 70%;
+}
+
+.cta-3 button::before {
+    top: -7px;
+    right: -8px;
+    border-bottom: none;
+}
+
+.cta-3 button::after {
+    top: 33px;
+    right: -8px;
+    border-top: none;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 #0f1923;
+
+}
+
+.cta-3 button span {
+    text-decoration: none;
+    color: white;
+}
+
+.line1 {
+    width: 450px;
+    height: 1px;
+    background: #2c2b2b96;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}

@@ -1,0 +1,15 @@
+
+
+.main {
+    background-color: #e4e2da;
+
+}
+
+.container2 {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 80px;
+}

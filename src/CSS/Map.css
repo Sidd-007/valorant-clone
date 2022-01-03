@@ -1,0 +1,62 @@
+.map{
+    background-color: #e4e2da;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 70px;
+    color: rgb(5, 5, 5);
+}
+
+.map_container{
+    width:40vw;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.description {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 768px){
+    .map_container{
+        flex-direction: row;
+        width: 90vw;
+    }
+
+    .map_container img{
+        width: 80vw;
+    }
+
+    .description{
+        width: 80vw;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .description p{
+        font-size: 10px;
+    }
+}
+
+.description h1{
+    font-family: "Tungsten-Bold";
+    margin-bottom: 20px;
+    color: #FF4654;
+    font-size: 5rem;
+}
+.description p{
+    font-family: "DinNext";
+    width: 35vw;
+    font-size: 15px;
+}
+
+

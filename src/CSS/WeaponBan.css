@@ -1,0 +1,36 @@
+
+
+.hero-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./raze-reyna.jpg");
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+    color: #ddd;
+    margin-top: 80px;
+    font-size: 5.1rem;
+}
+
+.heading {
+    display: inline-block;
+    padding: 0;
+    font-family: "Tungsten-Bold";
+    max-width: calc(66.66667% - 1rem);
+    margin-left: 400px;
+    margin-top: 400px;
+    color: #ece8e1;
+    text-align: left;
+}
+.banner--fadeBottom
+{
+    height: 5.5rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
