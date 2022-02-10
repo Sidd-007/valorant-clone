@@ -1,3 +1,25 @@
 # Valorant Clone
 
-Clone of [This](https://playvalorant.com/en-gb/) using React JS
+Clone of [Valorant Offical Website](https://playvalorant.com/en-gb/) using React JS
+
+
+## Usage
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run React dev server (http://localhost:3000)
+
+```
+npm start
+```
+
+### To build for production
+
+```
+npm run build
+```
+
